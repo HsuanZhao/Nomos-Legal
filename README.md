@@ -52,7 +52,6 @@ Nomos-Legal 是一门**法律领域特定语言（Legal Domain-Specific Language
 
 在 Nomos-Legal 中，`claim` 关键字强制用户在编码开始时即明确：
 
-```
 nomos
 claim "借款返还请求权" {
     basis = "民法典第667条";   // 依据何种规范
@@ -60,7 +59,6 @@ claim "借款返还请求权" {
     defendant = "借款人";       // 向谁
     relief = "返还本金及利息";  // 主张何种权利
 }
-'''
 
 ## 🤔 为什么需要 Nomos-Legal？
 
